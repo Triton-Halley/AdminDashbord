@@ -33,7 +33,7 @@
   justify-content: center;
 }
 .menuList ul {
-  width: 100%;
+  width: 80%;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
 }
 .menuList ul li {
   padding: 1rem;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -61,12 +61,18 @@ ul li:hover .SvgIcon {
   stroke: #fff;
 }
 
-.menuList ul li div a {
+.menuList ul li div button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-size: 2rem;
   cursor: pointer;
 }
 .logoutBtn {
-  width: 100%;
+  width: 80%;
   border-radius: 1.3rem;
   padding: 1rem;
   display: flex;
