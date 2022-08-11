@@ -4,5 +4,6 @@
   grid-template-rows: 1fr;
 }
 .page {
-  background-color: red;
+  background-color: rgb(30, 53, 116);
+  color: aliceblue;
 }
