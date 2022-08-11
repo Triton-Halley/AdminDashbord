@@ -1,0 +1,110 @@
+.menubarContainer {
+  color: #707173;
+  background-color: #1b1c1e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 20%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 30px;
+}
+.logo span {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+.logo p {
+  font-size: 1.6rem;
+}
+.menuList {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menuList ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.menuList ul li {
+  padding: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1.3rem;
+  transition: all 0.3s ease-in-out;
+}
+.menuList ul li div {
+  width: 60%;
+}
+.menuList ul li:hover,
+ul li:hover .SvgIcon {
+  background-color: #323335;
+  color: #fff;
+  stroke: #fff;
+}
+
+.menuList ul li div a {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.logoutBtn {
+  width: 100%;
+  border-radius: 1.3rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  background-color: #323335;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.logoutBtn:hover,
+.logoutIcon {
+  color: #ffff;
+}
+.account {
+  padding: 0 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 25%;
+}
+.SvgIcon {
+  /* color: #fff; */
+  fill: none;
+  stroke-width: 2;
+  stroke: #707173;
+  width: 2.4rem;
+  transition: all 0.3s ease-in-out;
+}
+.logoutIcon {
+  stroke: #fff;
+  transform: rotateY(180deg);
+  /* transform: rotateZ(190deg); */
+  width: 3rem;
+  transition: all 0.5s ease-in-out;
+}
+.logoutIcon:hover {
+  transform: rotateZ(360deg);
+}
