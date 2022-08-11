@@ -12,7 +12,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Design :
+Design inspired:
 
 https://dribbble.com/shots/17278436-Finance-Dashboard-Design
 
